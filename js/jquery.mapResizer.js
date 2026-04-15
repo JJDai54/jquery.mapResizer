@@ -1,6 +1,6 @@
 /*
-* rwdImageMaps jQuery plugin v1.6
-*
+* version : 2.0 du 2026-04-15a by 
+* mapResizer v2.0 - plugin jquery by jjdAi : jjdelalandre@orange.fr 
 * Allows image maps to be used in a responsive design by recalculating the area coordinates to match the actual image size on load and window.resize
 *
 * Copyright (c) 2016 Matt Stow
@@ -8,8 +8,7 @@
 * http://mattstow.com
 * Licensed under the MIT license
 * 
-* correction JJDai : recupe des coordonnées de l'image originale
-* version : 2.0 du 2026-04-15a by jjdAi : jjdelalandre@orange.fr 
+* correction JJDai : recupe des coordonnees de l'image originale
 * merci à l'auteur d'origine
 */
 
@@ -26,13 +25,13 @@
 					$that = $(that);
 
 				// Since WebKit doesn't know the height until after the image has loaded, perform everything in an onload copy
-                // Comme WebKit ne connaît la hauteur qu'une fois l'image chargée, effectuez toutes les opérations dans une copie onload
+                // Comme WebKit ne connait la hauteur qu'une fois l'image chargee, effectuez toutes les operations dans une copie onload
 				$('<img />').on('load', function() {
 					var attrW = 'width',
 						attrH = 'height',
 						w = $that.attr(attrW),
 						h = $that.attr(attrH);
-/* ce code recupere la taille de l'images redimentionnée dans la page html
+/* ce code recupere la taille de l'images redimentionnee dans la page html
 ce n'est pas ce que l'on veut, il faut la taille de l'image originle
 
 console.log(`1-image size = ${w} x ${h}`);
@@ -46,7 +45,7 @@ console.log(`1-image size = ${w} x ${h}`);
 					}
                     
 */                        
-                    //chargement de l'image originale et recuperation pour avoir la taille de la source non redimentionnée 
+                    //chargement de l'image originale et recuperation pour avoir la taille de la source non redimentionnee 
                     var temp = new Image();
                     temp.src = $that.attr('src');
                     w = temp.width;
