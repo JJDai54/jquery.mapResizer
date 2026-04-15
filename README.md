@@ -8,6 +8,11 @@ repository original : https://github.com/stowball/jQuery-rwdImageMaps
 
 exemple ici : https://oritheque.fr/_JJD/jquery.mapResizer/exemple-01.html
 
+links : 
+https://gist.github.com/rictorres/6159438
+https://github.com/stowball/jQuery-rwdImageMaps
+https://github.com/JJDai54/jquery.mapResizer/blob/master/js/jquery.mapResizer.js
+
 //-----------------------------------------------------------------------------
 # jQuery RWD Image Maps
 [![CDNJS](https://img.shields.io/cdnjs/v/jQuery-rwdImageMaps.svg)](https://cdnjs.com/libraries/jQuery-rwdImageMaps)
