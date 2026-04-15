@@ -1,3 +1,14 @@
+Reprise du plugin "jquery.rwdImageMaps.js"
+Correction :
+Le plugin récupérait la taille de l'image redimensionnée et non celle de l'image originale.
+Après correction, il récupère la taille de l'image originale.
+Renomage du plugin en "jquery.mapResizer.js" pour éviter les confusions
+Merci à l'auteur originale de ce plugin.
+repository original : https://github.com/stowball/jQuery-rwdImageMaps
+
+exemple ici : https://oritheque.fr/_JJD/jquery.mapResizer/exemple-01.html
+
+//-----------------------------------------------------------------------------
 # jQuery RWD Image Maps
 [![CDNJS](https://img.shields.io/cdnjs/v/jQuery-rwdImageMaps.svg)](https://cdnjs.com/libraries/jQuery-rwdImageMaps)
 
